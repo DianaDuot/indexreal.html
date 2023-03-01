@@ -1,7 +1,7 @@
 # dianadu.github.io
 
-<p>Welcome to my Page!</p>
+<p>This is my Fist Website</p>
 
-<p>I am <b>Diana Duot</b> your rockstar <b> Full Stack Web Developer </b>.
-   
+<p> Welcome! I'm <b>Diana Duot</b> your rockstar <b> Full Stack Web Developer </b>.
+    Explore my website and discover industry-specific features to help your business be successful online.
 
