@@ -2,27 +2,80 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title >Diana's Website</title>
+        <title>Diana's Website </title> 
     </head>
 
-    <body>
-        <h3> <b>Welcome to my Page!</b> </h3>
+    <body style="padding-top: 50px">
+    
+        <nav style="position:fixed; top:0; width:100%; background-color: rgba(255, 200, 127, 0.884); z-index:1">
         
-        <div style="margin-bottom: 15px;">
-            <a href="index.html" target="_self">Home</a>
-            <a href="projects.html" target="_self">Projects</a>
-            <a href="about.html" target="_self">About</a>
-            <a href="blog.html"target="_self">Blog</a>
-            <a href="contact.html"target="_self">Contact</a>
+            <label class="logo">Diana Duot</label>
+            <ul style="display:inline-flex; gap: 25px; list-style-type: none;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+       <img id="home" src="pic.jpg" width="400px" height="400px"style="padding-top: 40px;"/>  <h1> Hi! Welcome to my Page! </h1> <p> I'm <b style="font-style: italic; color: rgb(240, 12, 156)">Diana Duot</b> your rockstar <b style="text-transform: uppercase; color: olivedrab"> Full Stack Web Developer </b>. 
+        <br>Explore my website and discover industry-specific features to help your business be successful online. </p> </aside>
+        <button type="hire me"> Hire Me </button>  <button type="explore my projects"> Explore my Projects </button> 
+    
+        <div id="projects" style="padding-top: 50px;">
+            <h1 > My Projects </h1>
+        <p> These are the projects on our bootcamp to test our basic HTML knowledge for Week 1. </p>
+        <p> <a href= "TheWorldsFirstWebsite.html"> The Worlds First Website </a></p>
+        <p> <a href= "index.html">My First HTML </a> </p>
         </div>
-        
+    
+        <div id="about" style="padding-top: 50px;">
+            <h1 > About </h1>
+        <p>
+        This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - This page is empty as of the moment - 
+        </p>
+        </div>
 
-        <img src="pic.jpg" width="120px" height="120px"/>
+        <div id="blog" style="padding-top: 50px;">
+        <h1 > Blog </h1>
+        <p>
+        In this blog section you will know more about my life, previous work experiences and my Kodego journey. Please be ready with your tissues for the touching story of my life.
         
-        <p> I'm <b style="font-style: italic; color: rgb(240, 12, 156)">Diana Duot</b> your rockstar <b style="text-transform: uppercase; color: olivedrab"> Full Stack Web Developer </b>.
-        <br> Explore my website and discover industry-specific features to help your business be successful online. </p>
-        
-        
+        </p>
+        </div>
+
+        <hr>
+        <a href="selfintro.html" target="_self">Profile</a>
+         <hr>
+        <a href="gallery.html" target="_self">Photo Gallery</a>
+        <hr>
+        <a href="Hobbies.html" target="_self">Hobbies</a>
+
+    
+    
+    <div id="contact" style="padding-top: 50px;"></div>
+    </div>    
+    <h1 > Contact Us </h1>
+
+    <label for="name">Name </label>
+    <input type="text" id="name">
+    <br>
+    <label for="email">Email </label>
+    <input type="email" id="email">
+    <br>
+    <label for="comments">Comments</label>
+    <br>
+    <textarea name="comments"; id="comments" cols="60" rows="10"></textarea>
+    <br>
+    <button type="send message"> Send Message </button>
+    <footer>
+        <h1 id="contact"> Contact Details </h1>
+            <p>Address: Davao City, Philippines</p>
+            <p>Mobile Number:+639294725748</p>
+            <p>Email: <a href= "mailto:dianaduot.fva@gmail.com"> dianaduot.fva@gmail.com</a></p>
+    </footer>
+    
+
     </body>
-        
+
 </html>
